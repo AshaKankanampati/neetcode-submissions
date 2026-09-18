@@ -14,3 +14,6 @@ class Solution {
     }
     
 }
+
+//To check whether it has duplicates below logic also will work 
+//   return !(Arrays.stream(nums).distinct().count() == nums.length);
